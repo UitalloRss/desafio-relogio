@@ -1,41 +1,30 @@
-import { render } from '@testing-library/react';
-import { Component } from 'react';
-import React from 'react';
-import {Menubar} from 'primereact/menubar';
-import { withRouter } from 'react-router-dom';
+import React, { Component } from 'react';
+import { Link, Switch, Route } from 'react-router-dom';
+import Botao from './components/Botao'
+import Relogio from './pages/relogio';
+import Cronometro from './pages/cronometro';
+import Timer from './pages/timer';
+import './css/App.css';
+
 
 class App extends Component{
   render(){
-    const menuitems = [
-      {
-         label:'Relógio',
-         command:() => this.props.history.push('/')
-      },
-      {
-         label:'Cronometro',
-         command:() => this.props.history.push('/cronometro')
-
-      },
-      {
-         label:'Timer',
-         command:() => this.props.history.push('/timer')
-
-      }
-   ];
-
     return(
-      <div className="app">
-        <Menubar model={menuitems}/>
-        <div id="main">
-          <main>
-            <div className="content" id="content">
-              {this.props.children}
-            </div>
-          </main>
-        </div>
+      <div>
+        <Botao><a href="/">Relógio</a></Botao>
+        
+        <Botao><a href="/cronometro">Cronometro</a></Botao>
+
+        <Botao><a href="/timer">Timer</a></Botao>
+
+        <Switch>
+          <Route exact path="/" component={Relogio}/>
+          <Route path="/cronometro" component={Cronometro}/>
+          <Route path="/timer" component={Timer}/>
+        </Switch>
       </div>
-    );
+    )
   }
 }
 
-export default withRouter(App);
+export default App;
