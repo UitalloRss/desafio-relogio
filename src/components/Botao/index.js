@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/bootstrap.css';
+import '../../css/bootstrap.css';
 import './botao.css'
 
 function Botao(props){

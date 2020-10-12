@@ -1,5 +1,27 @@
 body{
-    background: #2c3e50 
+    background: #16a085 
+}
+
+#container{
+    margin: 0 auto;
+    width: 450px;
+    height: 500px;
+    border-radius: 5%;
+    position: relative;
+}
+
+#nav{
+    transform: translate(18%, 5%);
+}
+
+#content{
+    position: absolute;
+    background: #1abc9c;
+    width: 80%;
+    padding: 0 3em;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 a, a:active, a:hover{
