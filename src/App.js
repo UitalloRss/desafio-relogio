@@ -13,9 +13,9 @@ class App extends Component{
       <>
       <div id="container">
         <div id="nav">
-          <Botao><a href="/">Relógio</a></Botao>
-          <Botao><a href="/cronometro">Cronometro</a></Botao>
-          <Botao><a href="/timer">Timer</a></Botao>
+          <Botao><Link to="/">Relógio</Link></Botao>
+          <Botao><Link to="/cronometro">Cronometro</Link></Botao>
+          <Botao><Link to="/timer">Timer</Link></Botao>
         </div>
           <div id="content">
             <Switch>

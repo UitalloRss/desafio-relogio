@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Time from '../components/Time/index';
-import Moment from 'react-moment';
 import Clock from 'react-live-clock';
 import './pages.css';
 
@@ -13,7 +12,7 @@ class Relogio extends Component{
                     <h5>Outros Fuso-Horários</h5>
                     <div className="fusoHorario">
                         <p>Los Angeles</p>
-                        <Clock format={'HH:mm:ss'} ticking={true} timezone={'America/Los_Angeles'} />
+                        <Clock format={'HH:mm:ss'} ticking={true} timezone={'America/Los_Angeles'}/>
                     </div>
                     <div className="fusoHorario">
                         <p>Paris</p>
