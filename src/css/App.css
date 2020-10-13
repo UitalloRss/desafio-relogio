@@ -1,5 +1,5 @@
 body{
-    background: #16a085 
+    background: #34495e; 
 }
 
 #container{
@@ -16,16 +16,18 @@ body{
 
 #content{
     position: absolute;
-    background: #1abc9c;
+    background:#2c3e50;
     width: 80%;
     padding: 0 3em;
     top: 10%;
     left: 50%;
     transform: translate(-50%, 0%);
+    border-radius: 5%;
 }
 
 a, a:active, a:hover{
     text-decoration: none;
+    color: #bdc3c7;
 }
 
 body{

@@ -4,7 +4,7 @@ import './botao.css'
 
 function Botao(props){
     return(
-    <button type="button" class="btn btn-light">{props.children}</button>
+        <button type="button" class="btn btn-secondary">{props.children}</button>
     )
 }
 

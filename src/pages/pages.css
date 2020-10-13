@@ -1,3 +1,15 @@
 div{
-    color: #fff
+    color: #fff;
+}
+
+.telaRelogio{
+    padding: 5%;
+}
+
+p{
+    margin: 0;
+}
+
+.fusoHorario{
+    margin-top: 5%;
 }
