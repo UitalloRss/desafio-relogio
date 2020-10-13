@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Time from '../components/Time/index';
+import Time from '../Time/index';
 import Clock from 'react-live-clock';
 import './pages.css';
 

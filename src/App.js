@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link, Switch, Route } from 'react-router-dom';
 import Botao from './components/Botao/index';
-import Relogio from './pages/pagrelogio';
-import Cronometro from './pages/cronometro';
-import Timer from './pages/timer';
+import Relogio from './components/TelaRelogio/index';
+import Cronometro from './components/telaCronometro/index';
+import Timer from './components/TelaTimer/Index';
 import './css/App.css';
 
 
