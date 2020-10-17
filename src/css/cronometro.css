@@ -1,0 +1,26 @@
+.mostrar{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bdc3c7;
+    text-align: center;
+    font-size: 2em;
+}
+
+.btnCronometro{
+    background-color: #7f8c8d; 
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 1em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.6em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px
+}
+
+.botoesDoCronometro{
+    position: relative;
+    margin: 0 24%;
+}
