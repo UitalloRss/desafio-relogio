@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
-import Botao from '../Botao/index'
-
-
 
 class Temporizador extends Component{
     constructor(props){
